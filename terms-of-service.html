@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terms of Service – [App Name]</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --ink: #1a1a18; --ink-soft: #4a4a45; --ink-muted: #7a7a74;
+    --bg: #faf9f6; --bg-card: #ffffff; --border: #e8e6df;
+    --accent: #2d4a6b; --accent-soft: #e8eef5; --accent-mid: #3d6fa8;
+  }
+  body { font-family: 'DM Sans', sans-serif; font-weight: 300; background: var(--bg); color: var(--ink); min-height: 100vh; }
+  header { background: var(--accent); padding: 3.5rem 2rem 2.5rem; text-align: center; }
+  .app-badge { display: inline-flex; align-items: center; gap: 10px; background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); border-radius: 50px; padding: 6px 16px 6px 10px; margin-bottom: 1.5rem; }
+  .app-icon { width: 28px; height: 28px; border-radius: 7px; background: rgba(255,255,255,0.9); display: flex; align-items: center; justify-content: center; font-size: 16px; }
+  .app-badge span { color: rgba(255,255,255,0.9); font-size: 13px; font-weight: 400; letter-spacing: 0.05em; }
+  h1 { font-family: 'DM Serif Display', serif; font-size: clamp(2rem, 5vw, 3rem); color: #fff; line-height: 1.15; margin-bottom: 0.75rem; }
+  .subtitle { color: rgba(255,255,255,0.7); font-size: 14px; }
+  .container { max-width: 760px; margin: 0 auto; padding: 0 1.5rem 4rem; }
+  .meta-bar { display: flex; gap: 2rem; padding: 1.25rem 0; border-bottom: 1px solid var(--border); margin-bottom: 2.5rem; flex-wrap: wrap; }
+  .meta-item { font-size: 13px; color: var(--ink-muted); }
+  .meta-item strong { color: var(--ink-soft); font-weight: 500; display: block; }
+  .toc { background: var(--accent-soft); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; padding: 1.25rem 1.5rem; margin-bottom: 2.5rem; }
+  .toc-title { font-size: 12px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.75rem; }
+  section { margin-bottom: 2.5rem; }
+  h2 { font-family: 'DM Serif Display', serif; font-size: 1.35rem; color: var(--ink); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 0.6rem; }
+  .sec-num { width: 26px; height: 26px; background: var(--accent); color: white; border-radius: 50%; font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 500; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  p { line-height: 1.8; color: var(--ink-soft); font-size: 15px; margin-bottom: 0.9rem; }
+  ul { padding-left: 1.4rem; margin-bottom: 0.9rem; }
+  li { line-height: 1.8; color: var(--ink-soft); font-size: 15px; margin-bottom: 0.3rem; }
+  strong { font-weight: 500; color: var(--ink); }
+  .highlight-box { background: var(--accent-soft); border: 1px solid #b8cde0; border-radius: 10px; padding: 1rem 1.25rem; margin: 1rem 0; }
+  .highlight-box p { margin: 0; color: var(--accent); font-size: 14px; }
+  .warning-box { background: #fef9ec; border: 1px solid #f0d96a; border-radius: 10px; padding: 1rem 1.25rem; margin: 1rem 0; }
+  .warning-box p { margin: 0; color: #7a5c00; font-size: 14px; }
+  .contact-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin-top: 1rem; }
+  .contact-card p { margin: 0.3rem 0; font-size: 14px; }
+  .contact-card a { color: var(--accent-mid); text-decoration: none; }
+  footer { text-align: center; padding: 2rem; border-top: 1px solid var(--border); font-size: 13px; color: var(--ink-muted); }
+  footer a { color: var(--accent-mid); text-decoration: none; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="app-badge">
+    <div class="app-icon">📖</div>
+    <span>[App Name]</span>
+  </div>
+  <h1>Terms of Service</h1>
+  <p class="subtitle">Please read these terms carefully before using the app</p>
+</header>
+
+<div class="container">
+  <div class="meta-bar">
+    <div class="meta-item"><strong>Last Updated</strong> [Month Day, Year]</div>
+    <div class="meta-item"><strong>Effective Date</strong> [Month Day, Year]</div>
+    <div class="meta-item"><strong>Version</strong> 1.0</div>
+  </div>
+
+  <div class="toc">
+    <div class="toc-title">Table of Contents</div>
+    <ol style="padding-left:1.2rem;">
+      <li style="margin:0.35rem 0;"><a href="#s1" style="color:var(--ink-soft);font-size:14px;text-decoration:none;">Acceptance of Terms</a></li>
+      <li style="margin:0.35rem 0;"><a href="#s2" style="color:var(--ink-soft);font-size:14px;text-decoration:none;">Description of Service</a></li>
+      <li style="margin:0.35rem 0;"><a href="#s3" style="color:var(--ink-soft);font-size:14px;text-decoration:none;">User Accounts</a></li>
+      <li style="margin:0.35rem 0;"><a href="#s4" style="color:var(--ink-soft);font-size:14px;text-decoration:none;">Acceptable Use</a></li>
+      <li style="margin:0.35rem 0;"><a href="#s5" style="color:var(--ink-soft);font-size:14px;text-decoration:none;">Intellectual Property</a></li>
+      <li style="margin:0.35rem 0;"><a href="#s6" style="color:var(--ink-soft);font-size:14px;text-decoration:none;">Disclaimer of Warranties</a></li>
+      <li style="margin:0.35rem 0;"><a href="#s7" style="color:var(--ink-soft);font-size:14px;text-decoration:none;">Limitation of Liability</a></li>
+      <li style="margin:0.35rem 0;"><a href="#s8" style="color:var(--ink-soft);font-size:14px;text-decoration:none;">Termination</a></li>
+      <li style="margin:0.35rem 0;"><a href="#s9" style="color:var(--ink-soft);font-size:14px;text-decoration:none;">Changes to These Terms</a></li>
+      <li style="margin:0.35rem 0;"><a href="#s10" style="color:var(--ink-soft);font-size:14px;text-decoration:none;">Governing Law</a></li>
+      <li style="margin:0.35rem 0;"><a href="#s11" style="color:var(--ink-soft);font-size:14px;text-decoration:none;">Contact Us</a></li>
+    </ol>
+  </div>
+
+  <div class="highlight-box">
+    <p>By downloading, installing, or using this app, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the app.</p>
+  </div>
+
+  <section id="s1">
+    <h2><span class="sec-num">1</span> Acceptance of Terms</h2>
+    <p>These Terms of Service ("Terms") govern your access to and use of <strong>[App Name]</strong> (the "App"), provided by <strong>[Developer Name]</strong> ("we," "us," or "our").</p>
+    <p>By creating an account or otherwise using the App, you confirm that you have read, understood, and agree to be bound by these Terms, as well as our Privacy Policy.</p>
+  </section>
+
+  <section id="s2">
+    <h2><span class="sec-num">2</span> Description of Service</h2>
+    <p>The App provides the following features:</p>
+    <ul>
+      <li>English–Vietnamese and Vietnamese–English dictionary lookup.</li>
+      <li>Personal word lists and vocabulary saving.</li>
+      <li>Learning progress tracking and daily streaks.</li>
+      <li>Spaced repetition vocabulary review.</li>
+      <li>Data sync across devices via a Firebase-backed account.</li>
+    </ul>
+    <p>We reserve the right to modify, add, or discontinue any feature at any time. We will make reasonable efforts to notify users of significant changes.</p>
+  </section>
+
+  <section id="s3">
+    <h2><span class="sec-num">3</span> User Accounts</h2>
+    <p>To access the full functionality of the App, you must create an account. By doing so, you agree to:</p>
+    <ul>
+      <li>Provide accurate and truthful information during registration.</li>
+      <li>Keep your password secure and not share your account with others.</li>
+      <li>Be responsible for all activity that occurs under your account.</li>
+      <li>Notify us immediately if you suspect unauthorized access to your account.</li>
+    </ul>
+    <p>Each user may maintain only one account. We reserve the right to refuse or terminate accounts that violate these Terms.</p>
+  </section>
+
+  <section id="s4">
+    <h2><span class="sec-num">4</span> Acceptable Use</h2>
+    <p>You agree not to engage in any of the following when using the App:</p>
+    <ul>
+      <li>Using the App for any unlawful purpose or in violation of any applicable laws.</li>
+      <li>Attempting to damage, interfere with, or gain unauthorized access to the App's systems or servers.</li>
+      <li>Collecting data from the App through automated means (e.g., scraping, crawling, or bots).</li>
+      <li>Copying, modifying, or redistributing dictionary content without our prior written permission.</li>
+      <li>Attempting to access another user's data or account.</li>
+      <li>Impersonating any person or entity or misrepresenting your affiliation with any person or entity.</li>
+    </ul>
+  </section>
+
+  <section id="s5">
+    <h2><span class="sec-num">5</span> Intellectual Property</h2>
+    <p>The App — including its interface, design, logo, source code, and dictionary content — is owned by [Developer Name] or its respective licensors and is protected by applicable copyright and intellectual property laws.</p>
+    <p>We grant you a limited, non-exclusive, non-transferable license to use the App for personal, non-commercial purposes only.</p>
+    <p><strong>Your personal data</strong> (saved word lists, learning progress) remains yours. We only store it to provide the service.</p>
+  </section>
+
+  <section id="s6">
+    <h2><span class="sec-num">6</span> Disclaimer of Warranties</h2>
+    <div class="warning-box">
+      <p>The App is provided "as is" and "as available" without any warranties of any kind, either express or implied.</p>
+    </div>
+    <p>We do not warrant that:</p>
+    <ul>
+      <li>The App will be available at all times without interruption or errors.</li>
+      <li>Dictionary content is 100% accurate or complete — it is provided for reference purposes only and does not replace professional linguistic advice.</li>
+      <li>The App will be free from bugs, viruses, or other harmful components.</li>
+    </ul>
+  </section>
+
+  <section id="s7">
+    <h2><span class="sec-num">7</span> Limitation of Liability</h2>
+    <p>To the fullest extent permitted by applicable law, [Developer Name] shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of or inability to use the App, including but not limited to loss of data, loss of progress, or service interruptions.</p>
+  </section>
+
+  <section id="s8">
+    <h2><span class="sec-num">8</span> Termination</h2>
+    <p><strong>By you:</strong> You may delete your account at any time through the App's Settings screen. All your data will be permanently deleted.</p>
+    <p><strong>By us:</strong> We may suspend or terminate your account if we detect a violation of these Terms, fraudulent activity, or any behavior that harms our systems or other users.</p>
+    <p>If we decide to discontinue the App entirely, we will provide at least 30 days' advance notice.</p>
+  </section>
+
+  <section id="s9">
+    <h2><span class="sec-num">9</span> Changes to These Terms</h2>
+    <p>We may revise these Terms at any time. When we make material changes, we will notify you via an in-app notice or email, and update the "Last Updated" date at the top of this page.</p>
+    <p>Your continued use of the App after the revised Terms take effect constitutes your acceptance of the new Terms.</p>
+  </section>
+
+  <section id="s10">
+    <h2><span class="sec-num">10</span> Governing Law</h2>
+    <p>These Terms shall be governed by and construed in accordance with the laws of Vietnam. Any disputes arising from your use of the App shall be resolved under Vietnamese law.</p>
+  </section>
+
+  <section id="s11">
+    <h2><span class="sec-num">11</span> Contact Us</h2>
+    <p>If you have any questions about these Terms, please contact us:</p>
+    <div class="contact-card">
+      <p><strong>[Your Name / Developer Name]</strong></p>
+      <p>📧 Email: <a href="mailto:your@email.com">[your@email.com]</a></p>
+      <p>🌐 Website: <a href="#">[yourwebsite.com]</a></p>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <p>© [Year] [Developer Name] &nbsp;·&nbsp; <a href="privacy-policy.html">Privacy Policy</a></p>
+</footer>
+
+</body>
+</html>
